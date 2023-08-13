@@ -12,6 +12,6 @@ if (isNaN(numero)){
         const resultado = numero * i;
         /*vuelvo a usar el comando (document.write) para mostrar en pantalla solo que esta vez
         agregando el "br" para separar la respuesta en forma vertical*/
-        document.write(`${resultado} <br>`)
+        document.write(`${numero} x ${i} = ${resultado} <br>`)
     }
 }
